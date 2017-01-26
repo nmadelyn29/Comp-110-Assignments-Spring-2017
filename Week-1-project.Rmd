@@ -6,14 +6,22 @@
 Compiled on `r date()`.
 
 ```{r include = FALSE}
-library(DataComputing)
+#library(DataComputing)
 ```
 <!-- put your content after this line -->
 
+<<<<<<< HEAD
 [Prohibition](https://en.wikipedia.org/wiki/Prohibition_in_the_United_States]) outlawed the sale of alcohol in the United States.
+=======
+(Prohibition [https://en.wikipedia.org/wiki/Prohibition_in_the_United_States]) outlawed the sale of alcohol in the United States.
+>>>>>>> 2325f992b3bf548d392c86587a828af8c77d2456
 
 * It happened during the 1920's
 * It was a Constitutional Amendment
 * This amendment was repealed a few years later
+<<<<<<< HEAD
 ![The Drunkards Progress by Nathaniel Currier](https://en.wikipedia.org/wiki/Prohibition_in_the_United_States#/media/File:The_Drunkard%27s_Progress_-_Color.jpg])
+=======
+!(The Drunkards Progress by Nathaniel Currier [https://en.wikipedia.org/wiki/Prohibition_in_the_United_States#/media/File:The_Drunkard%27s_Progress_-_Color.jpg])
+>>>>>>> 2325f992b3bf548d392c86587a828af8c77d2456
 
