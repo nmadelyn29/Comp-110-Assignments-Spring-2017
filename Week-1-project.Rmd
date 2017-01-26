@@ -1,13 +1,19 @@
 # Week 1 Project  
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
 
 ```{r include = FALSE}
-library(DataComputing)
+#library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+(Prohibition [https://en.wikipedia.org/wiki/Prohibition_in_the_United_States]) outlawed the sale of alcohol in the United States.
+
+* It happened during the 1920's
+* It was a Constitutional Amendment
+* This amendment was repealed a few years later
+!(The Drunkards Progress by Nathaniel Currier [https://en.wikipedia.org/wiki/Prohibition_in_the_United_States#/media/File:The_Drunkard%27s_Progress_-_Color.jpg])
+
