@@ -1,6 +1,6 @@
 # Week 2 Short Answer Questions
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,28 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+1.1: a) Taffy - value of a variable for a particular case
+    b) Year - quantitative variable
+    c) sex - categorical variable
+    d) name - categorical variable
+    e) count - quantitative variable
+
+1.2: The table is not tidy because the variables in all categories are not consistently entered. Martin Van Buren's (3rd case) value for "in office" includes the word 'to' and Abraham Lincoln's (1st case) value for "number of states" is a phrase, not a number. Also the first case is the only one for which the value of "president" is entered with the last name first.
+
+1.4: 1) Data Table A Variables: Year, Algeria, Brazil, Columbia
+        Data Table B Variables: Country, Y2000, Y2001
+        Data Table C Variables: Country, YEar, Value
+      2) Data Table A: A case represents a year 
+          Data Table B: A case represents a country
+          Data Table C: A case represents a country in a year
+1.5: 1) There are 7 variables (faa, name, lat,lon, alt, tz, dst, tzone)
+
+    2) The cases represent identifying and locating information on individual airports.
+    
+    3) faa- categorical
+      name - categorical
+      lat,lon - numerical/quantitative
+      alt - numerical/quantitative
+      tz - categorical
+      dst - categorical
+      tzone - categorical
