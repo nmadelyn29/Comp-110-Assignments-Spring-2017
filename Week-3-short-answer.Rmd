@@ -1,6 +1,6 @@
 # Week 3 Short Answer Questions
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,99 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+SECTION 5:
+
+5.1: 
+
+
+library (mosaicData)
+library(DataComputing)
+"wage_graph"<-CPS85 %>%
+    group_by(sex, race) %>%
+
+I took out the chunks (```) because I didn't have time to work through some errors and I wanted to knit the document. There should be a filter() function here I think to only graph wage data grouped by race and sex, but it keeps giving me errors.
+
+Similarly, I want to graph the modification of CPS85, which I named wage_graph, but I am having trouble as well.
+
+barGraphHelper(wage_graph)
+
+
+5.2:
+
+
+SECTION 6:
+
+6.5: b) State and Polling Organization
+
+6.6: d) Glyph: Rectangle. Graphical attribute: color and text
+
+6.7: a) state
+
+6.8: 
+(see note above about errors in graphing)
+
+scatterGraphHelper(Small)
+
+ SECTION 7:
+ 
+ 7.1: a) average()
+      b) /
+      c) 
+      d) name<- DataTable %>%
+          filter()
+      e) filter()
+      f) n_distinct()
+      
+  
+  7.4: 
+  
+  a) 
+  
+  b) Tmp is both the name and is included as an argument in the summarise function. Also BabyNames is the data table, so should be listed as the first line and not as an argument of the function group_by().
+  
+  c) BabyNames should not be included in the group_by function
+  
+  7.5:
+  
+  7.7:
+  
+  a) BabyNames is stated as the data table in the beginning of the chain, so it does not need to be included in subsequent function.
+  
+  BabyNames %>%
+  group_by(year, sex) %>%
+  summarise(total=sum(count))
+  
+  b) No data table is specified for this chain; State and Population should be lowercase
+  
+  ZipGeography <- Minneapolis2013 %>%
+                group_by(state) %>%
+                summarise(pop=sum(population))
+                
+  
+  c) 
+  
+  d) the name is at the end of the function, it is the name of the data table, and no data table is specified; and the ">" symbol is backwards
+  
+  name <- Minneapolis2013 %>%
+        summarise(votesReceived=n()) %>%
+        group_by(First)
+        
+        
+7.11: 
+
+a) The number of individuals broken down by sex and the mean age for men and women
+b) the number of cases for each diagnosis and the mean age of the patients for each diagnosis
+c) same as above, but further broken down by the sex of the patients for each diagnosis
+d) same as above, but broken down by age instead of sex
+e) the number of individuals in each age category and the mean age
+
+7.12: 
+a) n()
+b) name()
+c) help()
+d) library()
+e) group_by()
+f) group_by()
+
+
+)
