@@ -1,6 +1,6 @@
 # Week 3 Project
 
-## Your name should appear here! 
+## Madelyn Nelson 
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,36 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+Deconstructing Graphics:
+
+- frequency polygon
+- variables: density, sex, bmi, pregnancy
+- sex=color, pregnancy=faceting by yes/no, bmi=x axis, density=y axis
+
+```{r}
+
+help(ggplot2)
+```
+
+1) 
+```{r}
+diamonds
+```
+
+```{r}
+  diamonds %>%
+  group_by(color) %>%  
+  summarise(mcarat=mean(carat))
+  ```
+  
+  1) J color diamonds seem to be the largest by average carat
+
+2)
+
+```{r}
+diamonds %>%
+select(clarity, table, carat) %>%
+group_by(clarity) %>%
+summarise(mtable=mean(table))
+```
+  
