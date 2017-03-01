@@ -1,6 +1,6 @@
 # Week 5 Short Answer Questions
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,30 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+SECTION 10:
+
+10.1:
+
+The join family of data verbs always includes a data table inside the parentheses because the join data verbs combine multiple data tables together in specific ways. It is significant how the cases in the 'left' table are coded to match up with the 'right' table - for example, inner_join() only includes cases from the 'left' that have a match in the 'right,' so if 'left' and 'right' were reversed it could mean a different result.
+
+10.2:
+
+These tables can't be copied and pasted together because the order of the cases is different between them - Akrotiri is the second case in the Demographics table but Aland is the second case in the CountryCentroids table. 
+
+10.3:
+
+1) Data table B would make it easiest to find the change from 2000 to 2001 by country. 
+DataTableB %>%
+summarise(y2001-y2000)
+
+SECTION 11:
+
+11.1:
+
+a) Version 1: a case is the number of babies grouped by sex with a given name during the specified year
+  Version 2: a case is the total number of babies with a given name (broken down by gender) during a given year
+  Version 3: a case is the total number of babies grouped by sex with a given name broken down by two years
+  
+  b)Version 2 is wide, Version 1 is narrow
+  c)The key variable from version 1 is sex
+  d)
