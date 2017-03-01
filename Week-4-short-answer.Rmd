@@ -1,6 +1,6 @@
 # Week 4 Short Answer Questions
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,39 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+SECTION 8
+
+8.1: a) 2, b) 2, c) 1, d) 5, e) 3, f) 4, g) 2, h) 5
+
+8.2: 
+
+1) 
+
+```{r} ggplot(data=CPS85,
+aes(x=age, y=wage, shape=married)) +
+geom_point()+
+facet_wrap(~sector)```
+
+2)
+
+ggplot(data=CPS85,
+aes(x=age, y=wage))+
+geom_point()+
+facet_wrap(~married, sex)
+
+8.3: 
+
+SECTION 9
+
+9.1: a) 
+b) data verb
+c) data verb
+d) summary function
+e) data verb
+f) summary function
+g) summary function
+h) transformation
+i) quick presentation
+
+9.3: 
+
