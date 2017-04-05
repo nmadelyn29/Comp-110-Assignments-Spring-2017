@@ -1,6 +1,6 @@
 # Week 8 Short Answer Questions
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,8 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+17.2:
+1) Variables: size of living room, number of bathrooms, and number of fireplaces
+2) Yes, price goes up slightly when there are more pathrooms for houses with a living area of less that 1080 square feet
+3) Roughly 20,000 dollars difference in price
+4) Yes, fireplaces correspond to higher house prices though those same houses also have a larger living space
