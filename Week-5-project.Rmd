@@ -1,6 +1,6 @@
 # Week 5 Project
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,18 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+```{r}
+download.file("http://tiny.cc/dcf/ScorecardSmall.Rda", 
+              destfile = "ScorecardSmall.Rda")
+load("ScorecardSmall.Rda")
+```
+
+```{r}
+ScorecardSmall
+```
+```{r}
+ScoreCardSmall%>%
+  
+
+
+
