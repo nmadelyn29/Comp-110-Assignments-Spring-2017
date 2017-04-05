@@ -1,6 +1,6 @@
 # Week 6 Short Answer Questions
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,73 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+12.1:
+I believe that R Studio suggested facet_by as a function, though originally I was thinking of the facet_wrap() from ggplot.
+
+``` {r} 
+library(BabyNames)
+```
+
+```{r} 
+BabyNames %>%
+  facet_by(name) %>%
+filter(rank(desc(total))<=5)  
+```
+
+12.2:
+
+```{r}
+Year_Above <- BabyNames %>%
+  group_by(year) %>%
+filter(rank(desc(total))<= 100) %>%
+```
+```{r}
+Year_Below<-
+  BabyNames%>%
+  group_by(year) %>%
+  filter(rank(asce(total))x<100)
+```
+
+```{r}
+BabyNames %>%
+group_by(year)
+gather(key=filter(TRUE<-x %in% Year_Above, FALSE <-x %in% Year_Below), frac__in_top_100)
+```
+
+
+12.3:
+
+a) summary
+b) summary
+c) transformation
+d) transformation
+e) neither
+f) transformation
+g) neither
+h) transformation
+
+SECTION 13
+
+13.1:
+  1) 8 Vertices
+  2) 9 Edges
+
+13.2:
+  1) A, B, C, D are the vertices
+  2) Table 3 shows the edges correctly
+  3) Table 1 indicates that B connects to C, which it does not. Table 2 indicates that A connects to C but does not indicate that C subsequently connects to D
+  
+  13.3:
+  
+Table 2 gives the needed information to draw the graph.
+
+13.4
+  1) exports is mapped to the size of the letter
+  2) population is mapped to the shape of the grey symbol
+  
+  SECTION 14:
+  
+  14.1:
+  
+  14.3: The most likely height for men is around 1.7. The most likely height for women is around 1.6. 
+
