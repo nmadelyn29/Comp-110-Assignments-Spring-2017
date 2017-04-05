@@ -1,6 +1,6 @@
 # Week 7 Short Answer Questions
 
-## Your name should appear here!
+## Madelyn Nelson
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,30 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+SECTION 15:
+
+15.1: 
+
+15.2: 
+a) tidry
+b) as.numeric
+c) as.numeric
+d) as.numeric
+e) as.numeric
+f) as.numeric
+g) as.numeric
+h) tidyr
+i) tidyr
+
+
+SECTION 16:
+
+16.1:
+
+16.2: 
+Telephone numbers! The digits of the phone number are being extracted.
+
+16.3:
+1) The strings that match the pattern will be 2 characters long
+2) About 63 different strings could match
+3) STATE ACRONYMS! (which, in retrospect, would suggest that 50 different strings would match)
